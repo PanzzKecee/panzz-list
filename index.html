@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panzz Info</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            min-height: 100vh;
+            padding: 20px;
+            background: url('https://i.postimg.cc/hjzFtxPh/spider-man-5120x2880-21603.jpg') no-repeat center center fixed;
+            background-size: cover;
+            position: relative;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.65);
+            z-index: 0;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .profile-section {
+            text-align: center;
+            padding: 30px 0 10px 0;
+        }
+        .profile-pic {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 3px solid rgba(255,255,255,0.4);
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+        .list {
+            margin-top: 20px;
+        }
+        .card {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: 0.2s;
+        }
+        .card:active {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(0.97);
+        }
+        .icon-bulat {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            flex-shrink: 0;
+            overflow: hidden;
+            background: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .icon-bulat img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .info h3 { font-size: 16px; margin-bottom: 3px; }
+        .info p { font-size: 12px; color: #ccc; }
+        .note {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 15px;
+            padding: 18px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: #ccc;
+            line-height: 1.6;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: rgba(255,255,255,0.5);
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- FOTO PROFIL UTAMA -->
+        <div class="profile-section">
+            <img class="profile-pic" src="https://i.postimg.cc/L6yVNWVH/spider-man-logo-red-background-marvel-comics-minimalist-ps4-3840x2160-6430.jpg" alt="Profile">
+        </div>
+
+        <!-- TOMBOL -->
+        <div class="list">
+
+            <!-- TIKTOK -->
+            <a href="https://tiktok.com/@panzz01_" class="card">
+                <div class="icon-bulat">
+                    <img src="https://i.postimg.cc/FRv5PwHm/2a3a8814b292141365c89a926167d1be-0.jpg" alt="TT">
+                </div>
+                <div class="info">
+                    <h3>TikTok</h3>
+                    <p>Follow @panzz01_</p>
+                </div>
+            </a>
+
+            <!-- INSTAGRAM -->
+            <a href="https://instagram.com/pann.kecee" class="card">
+                <div class="icon-bulat">
+                    <img src="https://i.postimg.cc/h43DtB9w/Tak-berjudul8-20260725155924.png" alt="IG">
+                </div>
+                <div class="info">
+                    <h3>Instagram</h3>
+                    <p>Follow @pann.kecee</p>
+                </div>
+            </a>
+
+            <!-- SALURAN WHATSAPP -->
+            <a href="https://whatsapp.com/channel/0029Vb3inHL96H4UmVSaxG1d/139" class="card">
+                <div class="icon-bulat">
+                    <img src="https://i.postimg.cc/fRY8Hytb/New-Project-7-F3EE0FC.png" alt="WA">
+                </div>
+                <div class="info">
+                    <h3>Saluran WhatsApp</h3>
+                    <p>Follow channel share cerita dan addon</p>
+                </div>
+            </a>
+
+            <!-- WHATSAPP BUSINESS -->
+            <a href="https://wa.me/573184068907?text=hi%20min%20request%20dong" class="card">
+                <div class="icon-bulat">
+                    <img src="https://i.postimg.cc/sXx9RgXK/Tak-berjudul8-20260706143924.png" alt="WA Biz">
+                </div>
+                <div class="info">
+                    <h3>WhatsApp Business</h3>
+                    <p>business contact or request addon </p>
+                </div>
+            </a>
+
+            <!-- TIKTOK DOWNLOADER (PALING BAWAH) -->
+            <a href="https://panzztikdwn.vercel.app/tiktokdownloader.html" class="card">
+                <div class="icon-bulat">
+                    <img src="https://i.postimg.cc/rwJ8Gckr/s-l400.png" alt="Download">
+                </div>
+                <div class="info">
+                    <h3>Vt Downloader</h3>
+                    <p>Download video tanpa watermark</p>
+                </div>
+            </a>
+            
+                   <!-- CATALOG -->
+            <a href="https://addon-catalog.vercel.app/catalog1.html" class="card">
+                <div class="icon-bulat">
+                    <img src="https://i.postimg.cc/fTYRVNV0/New-Project-7-F3EE0FC.png" alt="ctlg">
+                </div>
+                <div class="info">
+                    <h3>Panzz addon catalog</h3>
+                    <p>catalog addon yang gw share di saluran</p>
+                </div>
+            </a>
+
+        </div>
+
+        <!-- CATATAN -->
+        <div class="note">
+            Saluran ini ga spesifik bagi bagi add-on ya ges, share cerita gw dll lah yaa, jadi kalo gw jarang up add-on sorry ya, share link saluran juga ya, biar gw semangat share add-on jugaa, deskripsi addon lebih lengkapnya ada di saluran,jadi kalau kalian downooad dsri web follow sakuran juga ya
+        </div>
+
+        <div class="footer">
+            Made by Panzz
+        </div>
+
+    </div>
+
+</body>
+</html>
